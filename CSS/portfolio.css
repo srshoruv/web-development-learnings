@@ -1,6 +1,32 @@
 body{
-    background-color: wheat;
+    background-color: #fbd1a2;
+    font-family: 'Times New Roman', Times, serif;
 }
 
-h2{ 
+h1{
+    color: #062960;
+}
+
+h2{
+    height: 40px;
+    width: 200px;
+    color: #fbd1a2;
+    border: solid black;
+    border-radius: 15px;
+    background-color: #062960;
+    padding-left: 10px;
+}
+
+h4{
+    font-size: 20px;
+}
+
+li{
+    font-size: 25px;
+    list-style-type: none;
+}
+
+img{
+    border-radius: 10px;
+    border: 6px solid #062960 ;
 }
