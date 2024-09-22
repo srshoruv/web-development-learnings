@@ -5,7 +5,9 @@ body{
 
 h1{
     color: #062960;
+    font-weight: 100px;
 }
+
 
 h2{
     height: 40px;
@@ -34,5 +36,30 @@ li{
 
 img{
     border-radius: 10px;
+    
+}
+
+img:hover{
     border: 6px solid #062960 ;
+}
+
+.container{
+    height: 50px;
+    width: 500px;
+    background-color: #062960;
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.navEle{
+    color: white;
+    font-size: 20px;
+    align-content: center;
+}
+
+.navEle:hover{
+    text-decoration: underline;
+    transform: scale(1.2);
 }
